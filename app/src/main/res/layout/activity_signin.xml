@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient_primary_blue"
+    tools:context=".SigninAct">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/bg_layout_white"
+        android:orientation="vertical"
+        android:paddingTop="30dp"
+        android:paddingBottom="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/btn_sign_in10"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="24dp"
+
+            android:background="@drawable/bg_btn_blue_primary"
+            android:fontFamily="@font/mmedium"
+            android:text="Kata Pengantar"
+            android:textColor="#FFF"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btn_sign_in1"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="24dp"
+
+            android:background="@drawable/bg_btn_blue_primary"
+            android:fontFamily="@font/mmedium"
+            android:text="Panduan Wiridan"
+            android:textColor="#FFF"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btn_sign_in2"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="24dp"
+
+            android:background="@drawable/bg_btn_blue_primary"
+            android:fontFamily="@font/mmedium"
+            android:text="Panduan Tahlil"
+            android:textColor="#FFF"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btn_sign_in3"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="24dp"
+
+            android:background="@drawable/bg_btn_blue_primary"
+            android:fontFamily="@font/mmedium"
+            android:text="Asmaul Husna"
+            android:textColor="#FFF"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btn_sign_in4"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="24dp"
+
+            android:background="@drawable/bg_btn_blue_primary"
+            android:fontFamily="@font/mmedium"
+            android:text="Kumpulan Doa Sehari hari"
+            android:textColor="#FFF"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btn_sign_in5"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="24dp"
+
+            android:background="@drawable/bg_btn_blue_primary"
+            android:fontFamily="@font/mmedium"
+            android:text="Doa Khotmil Quran"
+            android:textColor="#FFF"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btn_sign_in6"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="24dp"
+
+            android:background="@drawable/bg_btn_blue_primary"
+            android:fontFamily="@font/mmedium"
+            android:text="Kumpulan Sholawat"
+            android:textColor="#FFF"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btn_sign_in7"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="24dp"
+
+            android:background="@drawable/bg_btn_blue_primary"
+            android:fontFamily="@font/mmedium"
+            android:text="Panduan Sholat Sunnah"
+            android:textColor="#FFF"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btn_sign_in8"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="24dp"
+
+            android:background="@drawable/bg_btn_blue_primary"
+            android:fontFamily="@font/mmedium"
+            android:text="Puasa Sunnah"
+            android:textColor="#FFF"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btn_sign_in9"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="24dp"
+
+            android:background="@drawable/bg_btn_blue_primary"
+            android:fontFamily="@font/mmedium"
+            android:text="Najis"
+            android:textColor="#FFF"
+            android:textSize="12sp" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/btn_new_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/mlight"
+        android:text=""
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.46"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
